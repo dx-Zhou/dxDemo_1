@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #666;
+    /* font-size: 12px; */
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+ul {
+    list-style: none;
+
+}
+
+input,
+button {
+    /* 去掉默认灰色边框 */
+    border: 0;
+    /* 去掉蓝色边框 */
+    outline: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.style_red {
+    color: #b1191a;
+}
+
+.style_fs12 {
+    font-size: 12px;
+}

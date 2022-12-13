@@ -1,0 +1,57 @@
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+.sk_list ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: right;
+}
+
+.sk_con ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+/* -------------- */
+.sk_bd {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+/* ----------------- */
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    height: 460px;
+    width: 290px;
+    margin-right: 10px;
+    /* border: 1px solid #c81523; 
+    本身就有一个一像素的边框*/
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
